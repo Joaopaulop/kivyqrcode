@@ -1,5 +1,6 @@
 from kivy.app import App
 from kivy.lang import Builder
+from pyzbar.pyzbar import decode
 
 class QrCodeApp(App):
 
